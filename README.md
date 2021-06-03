@@ -5,12 +5,17 @@ AtoZ-Phishing is a python based tool to create ph1shing pages.
 
 ## Installation
 
-`apt update && apt upgrade`
-`pkg install git -y`
-`git clone https://github.com/TechnicalDangwal/AtoZ-Phishing`
-`cd AtoZ-Phishing`
-`chmod +x *`
-`python AtoZPhishing.py`
+* `apt update && apt upgrade`
+
+*`pkg install git -y`
+
+*`git clone https://github.com/TechnicalDangwal/AtoZ-Phishing`
+
+*`cd AtoZ-Phishing`
+
+*`chmod +x *`
+
+*`python AtoZPhishing.py`
 
 after run this tool you just type `help`
 
@@ -46,4 +51,4 @@ __exit__
 - Want to exit then write exit.
 
 ## Thanks
-AdvPhishig author for phlshing sites
+AdvPhishing author for sites
