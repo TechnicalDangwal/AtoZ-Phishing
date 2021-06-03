@@ -25,7 +25,7 @@ def banner():
 			{blue}Created By {pink}Technical Dangwal                                                                                                
 
 
-			{green}Help - show help
+			{green}Help - show options
 
 """)
 dict={}
