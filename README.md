@@ -7,15 +7,15 @@ AtoZ-Phishing is a python based tool to create ph1shing pages.
 
 * `apt update && apt upgrade`
 
-*`pkg install git -y`
+* `pkg install git -y`
 
-*`git clone https://github.com/TechnicalDangwal/AtoZ-Phishing`
+* `git clone https://github.com/TechnicalDangwal/AtoZ-Phishing`
 
-*`cd AtoZ-Phishing`
+* `cd AtoZ-Phishing`
 
-*`chmod +x *`
+* `chmod +x *`
 
-*`python AtoZPhishing.py`
+* `python AtoZPhishing.py`
 
 after run this tool you just type `help`
 
