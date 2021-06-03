@@ -21,6 +21,7 @@ __start__
 AtoZ-Phishing => start                                                
 No.: Type the number according to given sequence (by type show in terminal)
 )
+
 __show__
 - from this option you can see all phishing sites.
 
