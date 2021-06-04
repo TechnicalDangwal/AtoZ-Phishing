@@ -15,6 +15,8 @@ AtoZ-Phishing is a python based tool to create ph1shing pages.
 
 * `chmod +x *`
 
+* `./setup`
+
 * `python AtoZPhishing.py`
 
 after run this tool you just type `help`
