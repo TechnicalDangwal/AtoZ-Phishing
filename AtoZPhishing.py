@@ -9,9 +9,6 @@ yellow="\033[1;33;40m"
 purple="\033[1;34;40m"
 pink="\033[1;35;40m"
 blue="\033[1;36;40m"
-if os.path.isfile("setup"):
-	os.system("bash setup")
-	os.remove("setup")
 
 def banner():
 	os.system("clear")
