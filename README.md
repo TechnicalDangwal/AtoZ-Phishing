@@ -52,7 +52,7 @@ __subscribe__
 __exit__
 - Want to exit then write exit.
 
-##YouTube Video
+## Watch Video [Hindi]
 [![YouTube Video](https://img.youtube.com/vi/ZZ_qLwudv1w.jpg)](https://lovefordogs.xyz/Diqh "YouTube Video")
 
 ## Thanks
