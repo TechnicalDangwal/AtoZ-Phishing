@@ -65,7 +65,7 @@ def start_ngrok(path):
 			print(f"{yellow}Starting Ngrok Server ")
 			os.system("./ngrok http 4444 > /dev/null 2>&1 &")
 			os.system("sleep 5")
-			os.system("termux-open-url https://localhost:4040")
+			os.system("termux-open-url http://localhost:4040")
 		else:
 			wget.download("https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip")
 			os.system("unzip ngrok*")
@@ -73,7 +73,7 @@ def start_ngrok(path):
 			print(f"{yellow}Starting Ngrok Server ")
 			os.system("./ngrok http 4444 > /dev/null 2>&1 &")
 			os.system("sleep 5")
-			os.system("termux-open-url https://localhost:4040")
+			os.system("termux-open-url http://localhost:4040")
 	except:
 		print(f"{red}Please Open Your Hotspot Otherwise You Cann't get link ")
 
